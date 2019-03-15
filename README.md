@@ -6,14 +6,19 @@ The basic idea is to divide the links with **grids** in a **GridMatrix**. Some g
 ### Grid
 #### class members
 **Grid corners**: Represent four corners' point of the grid.
+
 **Grid polygon**: Represent the polygon geometry of the grid.
+
 **Grid neighbours**: Store the neighbour grids around the grid.
+
 **Links that contained in the grid**: Store the links/link that are contained in the grid.
 
 ### GridMatrix
 #### class members
 **GridWidth**: Width of each grid.
+
 **Matrix**: Store each grid in the matrix col-wise.`[[(1, 1), (1, 2), (1, 3), ...], [(2, 1), (2, 2), (2, 3), ...], ...]`
+
 **Bottom left point**: Represent the coordinate of the matrix's bottom left corner.
 
 ## Core Functions
